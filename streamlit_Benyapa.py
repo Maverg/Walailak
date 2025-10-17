@@ -7,11 +7,8 @@ import streamlit as st
 from scipy.signal import welch
 import mne
 
-FILES = [
-    "/Users/maverick/Desktop/Tab1_01.mat",
-    "/Users/maverick/Desktop/Tab1_02.mat",
-    "/Users/maverick/Desktop/Tab1_03.mat"
-]
+FILES = ["data/Tab1_01.mat", "data/Tab1_02.mat", "data/Tab1_03.mat"]
+
 
 BANDS = {
     "Delta (1–4 Hz)": (1, 4),
